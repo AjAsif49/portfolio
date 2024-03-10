@@ -36,59 +36,25 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           
-          {{-- <li class="nav-item">
-            <a href="{{ route('home.about') }}" class="nav-link {{ request()->routeIs('home.about') ? 'active':'' }}">
+          <li class="nav-item">
+            <a href="{{ route('home.hero') }}" class="nav-link {{ request()->routeIs('home.hero') ? 'active':'' }}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                About Us
+                Hero
               </p>
             </a>
           </li> 
 
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{ route('home.product') }}" class="nav-link {{ request()->routeIs('home.product') ? 'active':'' }}">
               <i class="nav-icon fas fa-th"></i>
             <p>
                 Products
               </p>
             </a>
-          </li>
+          </li> --}}
           
-          <li class="nav-item">
-            <a href="{{ route('home.slider') }}" class="nav-link {{ request()->routeIs('home.slider') ? 'active':'' }}">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-              Sliders
-              </p>
-            </a>
-          </li> 
-
-          <li class="nav-item">
-            <a href="{{ route('home.testimonial') }}" class="nav-link {{ request()->routeIs('home.testimonial') ? 'active':'' }}">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-              Testimonial
-              </p>
-            </a>
-          </li> 
-
-          <li class="nav-item">
-            <a href="{{ route('home.menu') }}" class="nav-link {{ request()->routeIs('home.menu') ? 'active':'' }}">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-              Menu
-              </p>
-            </a>
-          </li> 
-
-          <li class="nav-item">
-            <a href="{{ route('home.submenu') }}" class="nav-link {{ request()->routeIs('home.submenu') ? 'active':'' }}">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-              Sub Menu
-              </p>
-            </a>
-          </li>  --}}
+         
 
         </ul>
       </nav>

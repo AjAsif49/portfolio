@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Models\Hero;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('web.index');
+    $hero = Hero::latest()->first();
+    return view('web.index', compact('hero'));
 });
 
 Route::get('/dashboard', function () {
